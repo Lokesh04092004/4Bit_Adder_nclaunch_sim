@@ -22,6 +22,7 @@ Here’s the truth table for a 1-bit full adder:
 ![tt](https://github.com/user-attachments/assets/0b3ab24f-1d7e-4a01-80ce-5e7406f4082b)
 
 ### Fig 1 : Diagram and truth table of full adder
+![exp1 pdvlsi](https://github.com/user-attachments/assets/7e6345f2-8442-40bb-a5d1-19505509d19b)
 
 ### Logic Expressions:
 
@@ -38,6 +39,7 @@ COUT=(A&B) | (CIN&(A^B))
 ![image](https://github.com/user-attachments/assets/7d6fa554-2614-4f19-aa68-65c9e6153caa)
 
 ### Fig 2:Diagram of 4 Bit Adder
+![simulation page pdvlsi](https://github.com/user-attachments/assets/33dd7a0c-fe92-4aa9-8fec-10b77198d87b)
 
 ## Creating Source Codes 
 
@@ -168,11 +170,13 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 ### Fig 10: Design Browser window for simulation
 
+
 ### Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window
 
 ### Fig 12: Simulation Waveform Window
 
 
+![pdvlsi exp 1](https://github.com/user-attachments/assets/7cc0ad71-e508-4527-abd2-686ac2306c08)
 
 
 
