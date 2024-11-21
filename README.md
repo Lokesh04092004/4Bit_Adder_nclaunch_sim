@@ -107,13 +107,11 @@ or
 
 	It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
 
-### Fig 4:Setting Multi-step simulation
 
 	Select Multiple Step and then select “Create cds.lib File” .
 
 	Click the cds.lib file and save the file by clicking on Save option 
 
-### Fig 5:cds.lib file Creation
 
 	Save cds.lib file and select the correct option for cds.lib file format based on the HDL Language and Libraries used. 
 
@@ -136,6 +134,8 @@ or
 	To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
 
 ### Fig 7: Nclaunch Window
+![image](https://github.com/user-attachments/assets/852d930d-8783-4fa5-91fd-b48c075290a3)
+
 
 ## Step 1: Compilation:– Process to check the correct Verilog language syntax and usage 
 
@@ -155,6 +155,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
 ### Fig 8: Compiled database in worklib
+
 
 	After compilation it will come under worklib you can see in right side window
 
@@ -178,6 +179,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	After elaboration the file will come under snapshot. Select the test bench and elaborate it.
 
 ### Fig 9: Elaboration Launch Option
+![Uploading image.png…]()
+
 
 ## Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
 
@@ -190,9 +193,12 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	Steps for simulation – Run the simulation command with simulator options
 
 ### Fig 10: Design Browser window for simulation
+![image](https://github.com/user-attachments/assets/d3b444c6-eeb1-4e38-84be-1d3c4b871ae0)
 
 
 ### Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window
+![image](https://github.com/user-attachments/assets/e3cd7d32-9fb9-4420-9784-02bdfb44d1e3)
+
 
 ### Fig 12: Simulation Waveform Window
 
