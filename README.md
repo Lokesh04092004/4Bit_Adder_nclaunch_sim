@@ -178,8 +178,6 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
    
 	After elaboration the file will come under snapshot. Select the test bench and elaborate it.
 
-### Fig 9: Elaboration Launch Option
-![Uploading image.png…]()
 
 
 ## Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
@@ -208,7 +206,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 
 
-
+Result:
+The functionality of a 4-bit adder was successfully verified using a test bench and simulated with the nclaunch tool.
 
 
 
